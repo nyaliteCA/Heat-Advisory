@@ -1,0 +1,87 @@
+.card {
+    width: 80%;
+}
+body {
+    background-color: #454143;
+    color:black;
+}
+.currentpage{
+    border-bottom:2px white solid;
+}
+header, main, nav, footer{
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-family: 'Pacifico', regular;
+}
+h3, h4{
+    font-family: 'Pacifico', regular;
+}
+nav a {
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover{
+    border-bottom:2px pink solid;
+    font-size: 2em;
+    transition: .9s;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+reqs,
+stepdata {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quest {
+    background-color: #e0d784 !important;
+}
+
+.goto {
+    background-color: #79b707 !important;
+}
+
+.interact {
+    background-color: #0ac9bc !important;
+}
+
+.fasttravel {
+    background-color: #13ad6d !important;
+}
+
+.grind {
+    background-color: #dd4fa7 !important;
+}
+
+.note {
+    background-color: #c6781f !important;
+}
+.default-color{
+     background-color: #777571 !important;
+}
+.smallNum{
+    width:60px;
+}
